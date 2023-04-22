@@ -55,6 +55,13 @@ nav ul li a.active {
   background-color: #fff;
 }
 
+section h2,
+h4 {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
 /*INDEX*/
 
 main {
@@ -109,13 +116,6 @@ main img {
   font-weight: bold;
 }
 
-section h2,
-h4 {
-  display: flex;
-  justify-content: center;
-  padding: 4rem;
-}
-
 /*CONTACT*/
 
 form {
@@ -124,6 +124,15 @@ form {
   align-items: center;
   gap: 10px;
   padding-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  form {
+    display: grid;
+    height: 100vh;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
 }
 
 form button {
