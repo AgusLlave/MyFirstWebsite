@@ -1,0 +1,19 @@
+.skills {
+  display: grid;
+  grid-template-areas:
+    "skill1 skill2"
+    "skill3 skill4"
+    "skill5 skill6";
+  justify-items: center;
+  column-gap: 20px;
+  row-gap: 100px;
+  margin-top: 70px;
+}
+
+@media (min-width: 990px) {
+  .skills {
+    grid-template-areas:
+      "skill1 skill2 skill3"
+      "skill4 skill5 skill6";
+  }
+}

@@ -1,0 +1,24 @@
+.carousel-inner {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.carousel-item img {
+  max-width: 80%;
+  height: 600px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.carousel-caption button {
+  background-color: #00b4db;
+  border: none;
+  padding: 10px 15px;
+}
+
+.carousel-caption button a {
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
