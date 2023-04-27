@@ -4,6 +4,17 @@ form {
   align-items: center;
   gap: 10px;
   padding-top: 3rem;
+  button {
+    background-color: #00b4db;
+    color: #fff;
+    font-family: "poppins", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    margin: 2rem;
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 768px) {
@@ -15,26 +26,13 @@ form {
   }
 }
 
-form button {
-  background-color: #00b4db;
-  color: #fff;
-  font-family: "poppins", sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  border: none;
-  padding: 10px 15px;
-  margin: 2rem;
-  cursor: pointer;
-}
-
 .social-media {
   display: flex;
   justify-content: center;
   gap: 40px;
-}
-
-.social-media a i {
-  font-size: 50px;
-  width: 100px;
-  height: 100px;
+  i {
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+  }
 }
