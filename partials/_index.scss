@@ -10,7 +10,7 @@ main {
     margin-bottom: 2rem;
     width: 1000px;
     img {
-      max-width: 100%;
+      max-width: 80%;
       height: auto;
       margin: 0 auto;
       border-radius: 50%;
@@ -31,12 +31,15 @@ span {
 }
 
 .home-btn {
-  padding: 2rem;
+  padding: 3rem;
   button {
     background-color: #00b4db;
     border: none;
     padding: 10px 15px;
     margin: 2rem;
+    &:hover {
+      transform: scale(1.1);
+    }
     a {
       color: #fff;
       font-family: "poppins", sans-serif;
