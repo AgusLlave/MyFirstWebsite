@@ -1,13 +1,5 @@
-.carousel-inner {
-  display: flex;
-  margin-bottom: 50px;
-}
-
 .carousel-item img {
-  max-width: 80%;
-  height: 600px;
-  padding: 0 auto;
-  margin: 0 auto;
+  height: 200px;
 }
 
 .carousel-caption button {
@@ -19,5 +11,11 @@
     font-family: "poppins", sans-serif;
     font-size: 12px;
     font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-item img {
+    height: 450px;
   }
 }
