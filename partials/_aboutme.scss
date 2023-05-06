@@ -1,0 +1,31 @@
+.about_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  margin-right: 45px;
+  margin-left: 45px;
+  img {
+    height: 250px;
+    margin: 3rem;
+    border-radius: 20%;
+    border-style: double;
+  }
+}
+
+@media (min-width: 991px) {
+  .about_content {
+    display: grid;
+    grid-template-areas:
+      "grid-text1 grid-image1"
+      "grid-image2 grid-text2";
+    img {
+      height: 50vh;
+      p {
+        font-size: 25px;
+      }
+    }
+  }
+}
