@@ -58,6 +58,73 @@ h4 {
   padding: 4rem;
 }
 
+.home-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  gap: 20px;
+}
+.home-contents h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+.home-contents h1 .home-intro {
+  font-size: 20px;
+  text-align: center;
+}
+
+div img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+span {
+  color: #00b4db;
+}
+
+.home-btn {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.home-btn button {
+  background-color: #00b4db;
+  border: none;
+  padding: 10px 15px;
+  margin: 2rem;
+}
+.home-btn button:hover {
+  transform: scale(1.1);
+}
+.home-btn button a {
+  color: #fff;
+  font-family: "poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (min-width: 991px) {
+  .home-contents {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .home-contents h1 {
+    font-size: 2.5rem;
+  }
+  .home-intro {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    font-size: 1.4rem;
+  }
+}
 .about_content {
   display: flex;
   flex-direction: column;
@@ -161,74 +228,6 @@ form button:hover {
   font-size: 50px;
   width: 100px;
   height: 100px;
-}
-
-.home-contents {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem;
-  gap: 20px;
-}
-.home-contents h1 {
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  margin-top: 3rem;
-}
-.home-contents h1 .home-intro {
-  font-size: 20px;
-  text-align: center;
-}
-
-div img {
-  max-width: 80%;
-  height: auto;
-  border-radius: 50%;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
-}
-
-span {
-  color: #00b4db;
-}
-
-.home-btn {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px 0;
-}
-.home-btn button {
-  background-color: #00b4db;
-  border: none;
-  padding: 10px 15px;
-  margin: 2rem;
-}
-.home-btn button:hover {
-  transform: scale(1.1);
-}
-.home-btn button a {
-  color: #fff;
-  font-family: "poppins", sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-@media (min-width: 991px) {
-  .home-contents {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .home-contents h1 {
-    font-size: 2.5rem;
-  }
-  .home-intro {
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 40px;
-    font-size: 1.4rem;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
