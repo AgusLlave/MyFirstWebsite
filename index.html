@@ -25,6 +25,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>Home | Agustin de la Llave's Portfolio</title>
     <link
       rel="icon"
@@ -43,7 +45,7 @@
       </div>
       <nav class="navbar navbar-expand-lg">
         <button
-          class="navbar-toggler"
+          class="navbar-toggler ms-auto"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -66,13 +68,13 @@
     </header>
 
     <main class="home-contents">
-      <h1>
+      <h1 data-aos="zoom-in">
         Hi, my name is <span>Agustin de la Llave</span> and i'm a
         <span>Web 3 Developer</span>
       </h1>
-      <p class="home-intro">
+      <p class="home-intro" data-aos="zoom-in">
         Welcome to my portfolio. My goal is to help brands enter the Web 3 space
-        smoothly, strenghtning their relationships with their clients and as a
+        smoothly, strengthening their relationships with their clients and as a
         result building a great community. <span>Let's work together!</span>
       </p>
       <div>
@@ -81,13 +83,14 @@
           src="./img/Foto.JPEG"
           alt="Agustin de la Llave"
           title="Foto de Agustin de la Llave"
+          data-aos="zoom-in"
         />
       </div>
       <div class="home-btn">
-        <button>
+        <button data-aos="zoom-out-down">
           <a href="CV">Download CV</a>
         </button>
-        <button>
+        <button data-aos="zoom-out-down">
           <a href="pages/contact.html">Get in touch</a>
         </button>
       </div>
@@ -102,5 +105,9 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

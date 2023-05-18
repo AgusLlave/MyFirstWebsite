@@ -25,6 +25,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>About me | Agustin de la Llave</title>
     <link
       rel="icon"
@@ -43,7 +45,7 @@
       </div>
       <nav class="navbar navbar-expand-lg">
         <button
-          class="navbar-toggler"
+          class="navbar-toggler ms-auto"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -72,9 +74,10 @@
           <img
             src="../img/sports.JPEG"
             alt="Agustin de la Llave doing an aquatic sport"
+            data-aos="fade-up-right"
           />
         </div>
-        <p id="grid-text1">
+        <p id="grid-text1" data-aos="fade-up-left">
           My name is Agustin de la Llave, I'm 24 years old and I was born and
           raised in Buenos Aires, Argentina. I studied business administration
           in Torcuato Di Tella University and now i am incursioning into
@@ -85,12 +88,14 @@
           <img
             src="../img/desert.JPEG"
             alt="Agustin de la Llave in the desert"
+            data-aos="fade-up-right"
           />
         </div>
-        <p id="grid-text2">
+        <p id="grid-text2" data-aos="fade-up-left">
           Apart from programming, some of my hobbies are playing sports like
           futbol and paddle, reading about personal growth and also spending
-          time wih family and friends. Let's connect and help each other build!
+          time wih family and friends. Let's connect and help each other build
+          in the space!
         </p>
       </div>
     </section>
@@ -104,5 +109,9 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
